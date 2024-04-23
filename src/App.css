@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  min-height: 100%; /* Ensure the container fills the entire viewport */
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-image: linear-gradient(to right, red , yellow); /* Set your desired background color */
+  font-family: Droid Sans;
 }
 
-.App-link {
-  color: #61dafb;
+.button-container {
+  position: relative; /* Set the position of the container to relative */
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.styled-button {
+  padding: 15px 30px;
+  font-size: 20px; /* Increase font size */
+  background-color: red;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.styled-button::after {
+  content: '';
+  background-image: url('./img/school logo.png');
+  background-size: cover;
+  width: 20px; /* Adjust the width and height of the image */
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 10px; /* Adjust the positioning of the image */
+  transform: translateY(-50%);
+}
+
+.styled-button:hover {
+  background-color: gold;
+}
+
+/* Confetti animation styles */
+.react-confetti {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+  transition: background-color 0.5s ease; /* Smooth transition for background color */
+}
+@keyframes flashing-gradient {
+  0% {
+    color: #ff0000; /* Start color */
   }
-  to {
-    transform: rotate(360deg);
+  
+  100% {
+    color: black /* End color */
   }
 }
+
+.flashing-gradient {
+  animation: flashing-gradient 2s infinite; /* Apply the flashing gradient animation */
+}
+
