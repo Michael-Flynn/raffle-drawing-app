@@ -5,7 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
-  background-image: linear-gradient(to right, red , yellow); /* Set your desired background color */
+  background-image: linear-gradient(to right, yellow , red); /* Set your desired background color */
 }
 
 .button-container {

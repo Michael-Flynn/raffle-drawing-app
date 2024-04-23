@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import logo from './img/hpms logo.png';
+import logo from './img/raiderlotto.png';
 import RaffleDrawing from './RaffleDrawing';
 
 function App() {
