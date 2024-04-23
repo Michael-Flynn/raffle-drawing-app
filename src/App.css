@@ -24,18 +24,6 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.styled-button::after {
-  content: '';
-  background-image: url('./img/school logo.png');
-  background-size: cover;
-  width: 20px; /* Adjust the width and height of the image */
-  height: 20px;
-  position: absolute;
-  top: 50%;
-  left: 10px; /* Adjust the positioning of the image */
-  transform: translateY(-50%);
-}
-
 .styled-button:hover {
   background-color: gold;
 }
