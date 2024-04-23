@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import logo from './img/school logo.png';
 import Confetti from 'react-confetti';
 
 const RaffleDrawing = () => {
