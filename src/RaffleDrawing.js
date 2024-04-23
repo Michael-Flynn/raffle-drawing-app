@@ -52,18 +52,17 @@ const RaffleDrawing = () => {
           {loading ? 'Drawing Winner...' : 'Draw Winner'}
         </button>
       </div>
-      <Confetti
-        numberOfPieces={800}
-        recycle={true}
-        width={window.innerWidth}
-        height={window.innerHeight}
-        gravity={0.5} // Set gravity to control the falling direction
-        run={confettiActive}
-      />
       {winners.map((winner, index) => (
         <div key={index}>
           <h3>Raffle {index + 1} Winner:</h3>
-          <h2 className="flashing-gradient">{winner}</h2>
+          <h1 className="flashing-gradient">{winner}</h1>
+          <Confetti
+            key={index} // Ensure a unique key for each Confetti component
+            numberOfPieces={800}
+            recycle={true}
+            width={window.innerWidth}
+            height={window.innerHeight}
+          />
         </div>
       ))}
     </div>

@@ -1,11 +1,11 @@
 body {
   min-height: 100%; /* Ensure the container fills the entire viewport */
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0;
   background-image: linear-gradient(to right, red , yellow); /* Set your desired background color */
-  font-family: Droid Sans;
 }
 
 .button-container {
@@ -16,8 +16,9 @@ body {
 .styled-button {
   padding: 15px 30px;
   font-size: 20px; /* Increase font size */
+  font-weight: bold;
   background-color: red;
-  color: #fff;
+  color: black;
   border: none;
   cursor: pointer;
   border-radius: 4px;
@@ -51,6 +52,7 @@ body {
 }
 
 .flashing-gradient {
-  animation: flashing-gradient 2s infinite; /* Apply the flashing gradient animation */
+  animation: flashing-gradient 2s infinite; 
+  font-size: 300 px; /* Apply the flashing gradient animation */
 }
 
