@@ -12,7 +12,7 @@ const RaffleDrawing = () => {
       try {
         const response = await fetch('./raffledrawing.json');
         const data = await response.json();
-        const participantNames = data.map((participant) => `${participant['First']} ${participant['Last Name']}`);
+        const participantNames = data.map((participant) => `${participant['First Name']} ${participant['Last Name']}`);
         setParticipants(participantNames);
         setLoading(false);
       } catch (error) {
