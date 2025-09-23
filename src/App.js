@@ -6,7 +6,7 @@ import RaffleDrawing from './RaffleDrawing';
 function App() {
   return (
     <div className="App">
-      <img alt="" src={logo} width={200} height={200} />
+      <img alt="" src={logo} width={300} height={300} />
       <RaffleDrawing />
     </div>
   );
