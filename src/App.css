@@ -1,15 +1,12 @@
 body {
   min-height: 100%; /* Ensure the container fills the entire viewport */
   display: block;
-  font-size: 70px;
+  font-size: 60px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;
   background-image: linear-gradient(to right, yellow , red); /* Set your desired background color */
-}
-h1, h2, h3 {
-  font-size: 70px;
 }
 .button-container {
   position: relative; /* Set the position of the container to relative */
@@ -56,6 +53,6 @@ h1, h2, h3 {
 
 .flashing-gradient {
   animation: flashing-gradient 2s infinite; 
-  font-size: 400 px; /* Apply the flashing gradient animation */
+  font-size: 300 px; /* Apply the flashing gradient animation */
 }
 
