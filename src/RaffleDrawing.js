@@ -58,7 +58,7 @@ const RaffleDrawing = () => {
           <h1 className="flashing-gradient">{winner}</h1>
           <Confetti
             key={index} // Ensure a unique key for each Confetti component
-            numberOfPieces={800}
+            numberOfPieces={400}
             recycle={true}
             width={window.innerWidth}
             height={window.innerHeight}
