@@ -1,7 +1,7 @@
 body {
   min-height: 100%; /* Ensure the container fills the entire viewport */
   display: block;
-  font-size: 40px;
+  font-size: 70px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,7 @@ body {
 
 .styled-button {
   padding: 15px 30px;
-  font-size: 20px; /* Increase font size */
+  font-size: 40px; /* Increase font size */
   font-weight: bold;
   background-color: red;
   color: black;
