@@ -1,7 +1,6 @@
 body {
   min-height: 100%; /* Ensure the container fills the entire viewport */
   display: block;
-  font-size: 30px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -53,6 +52,6 @@ body {
 
 .flashing-gradient {
   animation: flashing-gradient 2s infinite; 
-  font-size: 300 px; /* Apply the flashing gradient animation */
+  font-size: 400 px; /* Apply the flashing gradient animation */
 }
 
