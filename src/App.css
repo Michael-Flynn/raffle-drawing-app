@@ -1,6 +1,7 @@
 body {
   min-height: 100%; /* Ensure the container fills the entire viewport */
   display: block;
+  font-size: 40px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
