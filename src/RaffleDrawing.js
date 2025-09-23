@@ -59,7 +59,7 @@ const RaffleDrawing = () => {
           <Confetti
             key={index} // Ensure a unique key for each Confetti component
             opacity={.5}
-            numberOfPieces={800}
+            numberOfPieces={400}
             recycle={false}
             width={window.innerWidth}
             height={window.innerHeight}
