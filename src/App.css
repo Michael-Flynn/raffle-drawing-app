@@ -53,6 +53,6 @@ body {
 
 .flashing-gradient {
   animation: flashing-gradient 2s infinite; 
-  font-size: 300 px; /* Apply the flashing gradient animation */
+  font-size: 400 px; /* Apply the flashing gradient animation */
 }
 
