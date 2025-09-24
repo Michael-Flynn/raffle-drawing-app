@@ -13,6 +13,8 @@ function App() {
       <img alt="" src={rick} width={200} height={200} />
       <img alt="" src={rick} width={200} height={200} />
       <img alt="" src={rick} width={200} height={200} />
+      <img alt="" src={rick} width={200} height={200} />
+      <img alt="" src={rick} width={200} height={200} />
       <RaffleDrawing />
     </div>
   );
