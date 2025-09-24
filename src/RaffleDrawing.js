@@ -54,7 +54,6 @@ const RaffleDrawing = () => {
       </div>
       {winners.map((winner, index) => (
         <div key={index}>
-          <h3>Raffle {index + 1} Winner:</h3>
           <h1 className="flashing-gradient">{winner}</h1>
           <Confetti
             key={index} // Ensure a unique key for each Confetti component
