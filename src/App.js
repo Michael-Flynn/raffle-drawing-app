@@ -9,6 +9,10 @@ function App() {
     <div className="App">
       <img alt="" src={logo} width={200} height={200} />
       <img alt="" src={rick} width={200} height={200} />
+      <img alt="" src={rick} width={200} height={200} />
+      <img alt="" src={rick} width={200} height={200} />
+      <img alt="" src={rick} width={200} height={200} />
+      <img alt="" src={rick} width={200} height={200} />
       <RaffleDrawing />
     </div>
   );
